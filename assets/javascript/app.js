@@ -9,4 +9,9 @@ $(document).ready(function(){
     messagingSenderId: "10193950721"
   };
   firebase.initializeApp(config);
+
+  //variable reference to firebase database
+  var database = firebase.database();
+
+  
 })
