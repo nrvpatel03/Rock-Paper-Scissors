@@ -14,11 +14,50 @@
 
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <!--Input row-->
+                <form id="name-form" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Enter Your Name" id="name-input" type="text">
+                            <label for="first_name">Name: </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <!--Player1 wins-->
+                    <p id="p1wins" class="winlosstext">P1 Wins: </p>
+                    <p id="p1losses" class="winlosstext">P1 Losses: </p>
+                </div>
+                <div class="col s6">
+                    <!--Player2 Wins-->
+                    <p id="p2wins" class="winlosstext">P2 Wins: </p>
+                    <p id="p2losses" class="winlosstext">P2 Losses: </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <!--Game Row-->
+                    <div id="gameDiv">
+                        <!--Append stuff here-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <!--Chat-->
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
-    
     <!--Materialize script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <!--Jquery-->
