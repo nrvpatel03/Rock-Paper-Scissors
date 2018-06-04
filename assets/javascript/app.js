@@ -41,7 +41,8 @@ $(document).ready(function(){
         database.ref("players/p1").push({name:name});
         database.ref("players/trash").remove();
       }
-    })
+    });
+    
   })
 
 
